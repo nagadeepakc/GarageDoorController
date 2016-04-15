@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="This application controls the garage at Chelluri's Home.">
+    <meta name="author" content="Srikanth Chelluri, Deepak Chelluri">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>Chelluri's Garage Door</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/simpleWeather.js"></script>
+    <script src="js/trigger.js"></script>
+    <script src="js/weather.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="history.html">History</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Chelluri's Garage Door</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 id="status"></h1>
+        <br><br>
+        <div class="row">
+          <div class="col-md-6"><a class="btn btn-lg btn-default" href="#" role="button" id="open_toggle">Open</a></div>
+          <div class="col-md-6"><a class="btn btn-lg btn-default" href="#" role="button" id="close_toggle">Close</a></div>
+        </div>
+      </div>
+
+      <div class="weather" id="weather" align="center"></div>
+
+      <footer class="footer">
+        <p align="center">
+          Copyright &copy; 2016 Chelluri. All rights reserved.
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+  </body>
+</html>
